@@ -1,4 +1,3 @@
-
 #include "login.h"
 #include "ui_login.h"
 #include "form.h"
@@ -12,7 +11,7 @@
 #include<QFileDialog>
 #include<QGraphicsDropShadowEffect>
 
-#define ADDRESS "192.168.0.104"
+#define ADDRESS " 10.17.199.27"
 #define PORT 8888
 
 qt4::qt4(QWidget *parent)

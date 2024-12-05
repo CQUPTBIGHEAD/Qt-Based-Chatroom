@@ -26,16 +26,7 @@ AddPanel::~AddPanel()
     ui = nullptr;
 }
 
-void AddPanel::paintEvent(QPaintEvent *event)
-{
-    Q_UNUSED(event);
 
-    QPainter painter(this);
-
-    // 设置绘制区域的背景色
-    painter.fillRect(0, 0, 180, 450, QColor(170, 255, 255)); // 设置颜色
-
-}
 
 void AddPanel::on_pushButton_2_clicked()
 {
@@ -61,5 +52,6 @@ void AddPanel::on_pushButton_clicked()
     tcpSocket->write(jsonString);
     tcpSocket->flush();
     QMessageBox::information(this, "提示", "发送好友申请成功");
+
 }
 

@@ -1,4 +1,4 @@
-QT       += core gui
+11111111111111111111111111111111111111111111111111111qqqqqqqqqqqqqqqqqqqqqqqqqqqQT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 QT += network

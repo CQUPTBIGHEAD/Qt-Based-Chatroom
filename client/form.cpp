@@ -1,6 +1,3 @@
-
-
-
 #include "form.h"
 #include "ui_form.h"
 #include "addpanel.h"

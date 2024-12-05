@@ -6,14 +6,13 @@ QWaitCondition ConnectionPool::waitConnection;
 ConnectionPool* ConnectionPool::instance = NULL;
 
 ConnectionPool::ConnectionPool() {
-    hostName     = "127.0.0.1";
-    databaseName = "2";
-    username     = "root";
-    password     = "lz2sx@1314";
-    databaseType = "QODBC";
+    hostName     = "";
+    databaseName = "D:\\gitrepo\\Chat\\chat.db";
+    username     = "";
+    password     = "";
+    databaseType = "QSQLITE";
     testOnBorrow = true;
     testOnBorrowSql = "SELECT 1";
-
     maxWaitTime  = 1000;
     waitInterval = 200;
     maxConnectionCount  = 5;

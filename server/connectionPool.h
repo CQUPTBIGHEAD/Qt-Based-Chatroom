@@ -1,7 +1,5 @@
-
 #ifndef CONNECTIONPOOL_H
 #define CONNECTIONPOOL_H
-
 #include <QObject>
 #include <QtSql/QtSql>
 #include <QMutex>
